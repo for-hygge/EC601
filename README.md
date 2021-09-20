@@ -58,7 +58,7 @@ This is a collection of assignments from EC601
    
    There are also many good projects which are similar to our topic on GitHub.I will search more and learn from them.
    
-### Reference: 
+## Reference: 
 [1] 	https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/overview/description  
 [2]	  https://www.healthline.com/health/brain-tumor#treatment  
 [3] 	M. Gurbină, M. Lascu and D. Lascu, "Tumor Detection and Classification of MRI Brain Image using Different Wavelet Transforms and Support Vector Machines," 2019 42nd International Conference on Telecommunications and Signal Processing (TSP), 2019, pp. 505-508, doi: 10.1109/TSP.2019.8769040.  
