@@ -9,7 +9,7 @@ This is a collection of assignments from EC601
 
    ### o	Why is it important? 
       
-      1. Unpredictable-- Overgrowth of abnormal cells in the brain accumulate to form brain tumors. The shape, size, and location of the brain tumors are all unpredictable, as well as the direction of spread. Brain tumors can be malignant or benign. Although not all of them can cause cancer, they all increase intracranial pressure and cause certain damage to the brain[1], [2].
+      1.    Unpredictable-- Overgrowth of abnormal cells in the brain accumulate to form brain tumors. The shape, size, and location of the brain tumors are all unpredictable, as well as the direction of spread. Brain tumors can be malignant or benign. Although not all of them can cause cancer, they all increase intracranial pressure and cause certain damage to the brain[1], [2].
       
       2.	Life-threatening-- The World Health Organization (WHO) classified more than 120 classes of brain tumors in four levels according to the level malignancy[3]. Glioblastoma, the most generic form of primary malignant brain tumors, the five-year relative survival rate of which is only 7.2% and median survival is only 8 months[4].
       
