@@ -1,6 +1,6 @@
 This is a collection of assignments from EC601
 
-# Project 1: RSNA-MICCAI Brain Tumor Radiogenomic 
+# Project 1: RSNA-MICCAI Brain Tumor Radiogenomic Classification 
 
 ## Problem statement
    ### o	What does this topic cover?
@@ -49,11 +49,11 @@ This is a collection of assignments from EC601
    I have not yet duplicate the results. However, I found there are lots of open-source researches related to this topic on the Internet.  
    
    The following projects are all from the participants in the KAGGLE competition and the data is provided by the Radiological Society of North America (RSNA), the Medical Image Computing and Computer Assisted Intervention Society (the MICCAI Society) and the Medical Image Computing and Computer Assisted Interventions (MICCAI) society.  
-   1.	Brain Tumor - Transfer Learning - FLAIR – Kfold[15]
+   1.	Brain Tumor - Transfer Learning - FLAIR – Kfold[15]  
       In this project, in terms of image processing, Michael cropped images to reduce black borders, resized them, applied denoising filter and converted each image in 3D array.  
       In terms of classification, he used LSTM—one of RNNs to take into account the past elements of our sequence of images.
    
-   2.	[RSNA-MICCAI] Monai - ensemble[16]
+   2.	[RSNA-MICCAI] Monai - ensemble[16]  
       In this project, Michal used stacked images (3D) and Densenet121 3D model to train the data. The dataset he used contains a code of the framework MONAI which is a PyTorch-based, open-source framework for deep learning in healthcare imaging.
    
    There are also many good projects which are similar to our topic on GitHub.I will search more and learn from them.
