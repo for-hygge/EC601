@@ -1,4 +1,4 @@
-Explore Twitter APIs
+#1 Explore Twitter APIs
 ====================
 ## function 1: Get Tweets From One User's Twitter
 This code is designed to get a certain number（ `200` is the `maximum allowed count` ) of latest tweets from a `specified user`.  
@@ -7,3 +7,6 @@ This code is designed to get a certain number（ `200` is the `maximum allowed c
 --------------------
 ## function 2
 --------------------
+#2 Explore Goggle NLP APIs
+============================
+## function 1: Analyze sentiment in a string
