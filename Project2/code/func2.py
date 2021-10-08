@@ -43,7 +43,7 @@ api.rate_limit_status()['resources']['search']
 
 #This is what we are searching for
 #We can search for multiple phrases using OR
-searchQuery = '#Korea OR #PyeongChang2018'
+searchQuery = ''
 
 #Maximum number of tweets we want to collect
 maxTweets = 3000
