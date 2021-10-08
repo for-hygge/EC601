@@ -9,4 +9,4 @@ This code is designed to get a certain number（ `200` is the `maximum allowed c
 --------------------
 #2 Explore Goggle NLP APIs
 ============================
-## function 1: Analyze sentiment in a string
+## test 1: Analyze sentiment in a string
