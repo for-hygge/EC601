@@ -5,7 +5,7 @@ from google.cloud import language_v1
 # Instantiates a client
 client = language_v1.LanguageServiceClient.from_service_account_json('')
 
-# assign the values accordingly
+# input access information
 consumer_key = ""
 consumer_secret = ""
 access_key = ""
