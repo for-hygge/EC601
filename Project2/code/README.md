@@ -1,9 +1,13 @@
 #1 Explore Twitter APIs
 ====================
-## function 1: Get Tweets From One User's Twitter
-This code is designed to get a certain number（ `200` is the `maximum allowed count` ) of latest tweets from a `specified user`.  
+## function 1
+### case 1:Get Tweets From One User's Twitter
+This part is designed to get a certain number（ `200` is the `maximum allowed count` ) of latest tweets from a `specified user`.  
 * The obtained file format is **.json**
 * The file contains all the information on the user’s Twitter homepage, including username, nickname, account establishment time, profile, number of friends, etc.
+### case 2:Get One user's Friends  
+This part is designed to get the number and screen names of a given user's friends.
+
 --------------------
 ## function 2:Search tweets with a given query
 This code is designed to look for tweets posted by a user which contain a given keyword. 
