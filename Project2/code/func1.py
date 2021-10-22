@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # encoding: utf-8
-# Author - Prateek Mehta
 
 import tweepy  # https://github.com/tweepy/tweepy
 import json
@@ -11,7 +10,7 @@ consumer_secret = ""
 access_key = ""
 access_secret = ""
 
-
+# case 1:get all tweets from a user
 def get_all_tweets(screen_name):
     # Twitter only allows access to a users most recent 3240 tweets with this method
 
@@ -65,3 +64,17 @@ def get_all_tweets(screen_name):
 if __name__ == '__main__':
     # pass in the username of the account you want to download
     get_all_tweets("@taylorswift13")
+
+# case 2:get information of a user's friends
+#def get_friends():
+#    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+#    auth.set_access_token(access_key, access_secret)
+#    api = tweepy.API(auth)
+#    user = api.get_user('')    # screen_name
+#
+#    print(user.followers_count)
+#    for friend in user.friends():
+#       print(friend.screen_name)
+#   
+#if __name__ == '__main__':
+#    get_friends()
