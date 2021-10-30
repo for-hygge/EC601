@@ -14,7 +14,7 @@ This code is designed to look for tweets posted by a user which contain a given 
 The format of the file is also **.json**
 
 --------------------
-#2 Explore Goggle NLP APIs
+#2 Explore Google NLP APIs
 ============================
 ## test : Analyze sentiment in a string
 This code is designed to analyze whether the sentiment in a string is positive or negative and also tell the language of the text.
