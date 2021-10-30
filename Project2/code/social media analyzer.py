@@ -32,10 +32,11 @@ new_tweets = api.user_timeline(screen_name=name, end_time=(week_ago-now_time).da
 all_tweets.extend(new_tweets)
 
 if all_tweets != []:
-    document = language_v1.Document(content=all_tweets, type_=language_v1.Document.Type.PLAIN_TEXT)
-    sentiment = client.analyze_sentiment(request={'document': document}).document_sentiment
-    score = score + sentiment.score
-    count = count + 1
+    for i in range(len(all_tweets)):
+        document = language_v1.Document(content=all_tweets, type_=language_v1.Document.Type.PLAIN_TEXT)
+        sentiment = client.analyze_sentiment(request={'document': document}).document_sentiment
+        score = score + sentiment.score
+        count = count + 1
 
 avescore = score/count
 
