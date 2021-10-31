@@ -33,6 +33,6 @@ Language of text is: en (which means ENGLISH)
 * Users: All people who want to know themselves better and manage their emotion.
 
 ## Unit_test
-### case1:if you input the wrong key and secret, then the program will output a 401 error
-### case2:if you input a username which doesn't exist, then the program will output 0 since the score has not been updated
-### case3:This part is designed to help me see if the result is the same as what I expected
+### case1:if you input the wrong key and secret, then the program will output a 401 error  
+### case2:if you input a username which doesn't exist, then the program will output "The user may not exist or post anything."  
+### case3:This part is designed to help me see if the result is the same as what I expected  
