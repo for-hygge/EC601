@@ -31,3 +31,8 @@ Language of text is: en (which means ENGLISH)
 * User storys: It is important to learn to control our emotions. This product can capture the tweets posted by users within a week to analyze whether their sentiment this week is more positive or negative, so that users can know themselves better and learn to control their emotion later.
 * Modular design: First, this program uses Twitter API to get the tweets posted by a given user within a week. Then, it uses Google NLP API to analyze the sentiment. Finally, it records the results and give a feedback to the user.
 * Users: All people who want to know themselves better and manage their emotion.
+
+## Unit_test
+### case1:if you input the wrong key and secret, then the program will output a 401 error
+### case2:if you input a username which doesn't exist, then the program will output 0 since the score has not been updated
+### case3:This part is designed to help me see if the result is the same as what I expected
