@@ -40,12 +40,14 @@ if all_tweets != []:
         score = score + sentiment.score
         count = count + 1
 
-avescore = score/count
-
-if avescore > 0:
-    print('Your avescore is {} in the last week. You are in a good mood.', avescore)
+if count !=0:
+    avescore = score/count
+    if avescore > 0:
+        print('Your avescore is {} in the last week. You are in a good mood.', avescore)
+    else:
+        print('Your avescore is {} in the last week. You are in a bad mood.', avescore)
 else:
-    print('Your avescore is {} in the last week. You are in a bad mood.', avescore)
+    print('This user may not exist or post anything.')
     
 # case3: test function
 #all_tweets = ["I'm very happy","bad day","I like the weather","I watched a movie today"]
@@ -56,9 +58,11 @@ else:
 #        score = score + sentiment.score
 #        count = count + 1
 #
-#avescore = score/count
-#
-#if avescore > 0:
-#    print('Your avescore is {} in the last week. You are in a good mood.', avescore)
+#if count !=0:
+#    avescore = score/count
+#    if avescore > 0:
+#        print('Your avescore is {} in the last week. You are in a good mood.', avescore)
+#    else:
+#        print('Your avescore is {} in the last week. You are in a bad mood.', avescore)
 #else:
-#    print('Your avescore is {} in the last week. You are in a bad mood.', avescore)
+#    print('This user may not exist or post anything.')
