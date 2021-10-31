@@ -38,9 +38,11 @@ if all_tweets != []:
         score = score + sentiment.score
         count = count + 1
 
-avescore = score/count
-
-if avescore > 0:
-    print('Your avescore is {} in the last week. You are in a good mood.', avescore)
+if count !=0:
+    avescore = score/count
+    if avescore > 0:
+        print('Your avescore is {} in the last week. You are in a good mood.', avescore)
+    else:
+        print('Your avescore is {} in the last week. You are in a bad mood.', avescore)
 else:
-    print('Your avescore is {} in the last week. You are in a bad mood.', avescore)
+    print('This user may not exist or post anything.')
